@@ -6,5 +6,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  // Remove the base path for Vercel deployment
   // base: '/digital-library/',
 });
